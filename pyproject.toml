@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "extio"
+version = "1.0.3"
+description = "Расширенный ввод-вывод для консольных приложений: цвета, ожидание клавиш, ASCII-арт"
+readme = "README.md"
+license = {file = "LICENSE.md"}
+requires-python = ">=3.8"
+authors = [
+    {name = "Artem Shamaev", email = "barnimycomp@gmail.com"},
+]
+keywords = ["cli", "colors", "input", "ascii-art", "console", "keyboard"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Terminals",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/ShamaevArtem"
+Repository = "https://github.com/ShamaevArtem"
+Issues = "https://github.com/ShamaevArtem"

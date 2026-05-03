@@ -1,0 +1,85 @@
+Metadata-Version: 2.4
+Name: extio
+Version: 1.0.3
+Summary: Расширенный ввод-вывод для консольных приложений: цвета, ожидание клавиш, ASCII-арт
+Author-email: Artem Shamaev <barnimycomp@gmail.com>
+License: # Barni Operating System Personal License (BOS-PL)
+        Версия 1.5, пятнадцатое апреля дветысячи двадцать шестого года.
+        
+        ## Определения
+        "Программное обеспечение" (ПО) или "Продукт" означает код, документацию и любые связанные материалы проекта "Barni-Operating-System", доступного по адресу: https://github.com/ArtemShamaev/Barni-Operating-System.
+        
+        "Личное использование" означает использование исключительно для некоммерческих, образовательных, хобби-целей и не предполагает получения прямой или косвенной финансовой выгоды.
+        
+        "Лицензиат" означает любое физическое или юридическое лицо, использующее ПО на условиях данной лицензии.
+        
+        ## Область действия лицензии
+        Настоящим Вам предоставляется всемирная, безвозмездная, непередаваемая, неисключительная лицензия на использование ПО для Личного использования.
+        
+        ## Запреты *
+        Вы не имеете права:
+        1.  Распространять, копировать или передавать ПО третьим лицам, за исключением случаев, прямо предусмотренных настоящей лицензией.
+        2.  Использовать ПО в коммерческих целях, включая, но не ограничиваясь: продажа, аренда, сдача внаём, включение в состав коммерческого продукта или услуги, получение дохода от рекламы.
+        3.  Сублицензировать ПО.
+        4.  Удалять или изменять любые уведомления об авторских правах или товарных знаках в ПО.
+        5. Использовать исходный код в своих проектах как модуль
+        6. Выкладывать измененый продукт в сеть Интернет или на соц-сети по лозунгом "Я создал ОС с нуля на языке ассемблера!" и т.д.
+        ## Коммерческое лицензирование
+        Любое использование ПО, выходящее за рамки Личного использования, требует заключения отдельного коммерческого лицензионного договора. Для получения коммерческой лицензии, пожалуйста, свяжитесь с автором: barnimycomp@gmail.com. Лучше обрашайтесь по [Youtube-канале Barnino Channel](https://www.youtube.com/@barninochannel)
+        ## Разрешения*
+        Вы имеете право:
+        1. Изменять продукт для удобства личного использования
+        2. Предлагать улучшения в комментариях на [Youtube-канале Barnino Channel](https://www.youtube.com/@barninochannel)
+        3. Выкладывать обзоры в сети Интернет (в т.ч. соц-сетях) ИСХОДНОГО (неизмененного) продукта
+        
+        ## Отказ от гарантий
+        ПО ПРЕДОСТАВЛЯЕТСЯ "КАК ЕСТЬ", БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ. АВТОР НЕ НЕСЕТ ОТВЕТСТВЕННОСТИ ЗА ЛЮБЫЕ УБЫТКИ, СВЯЗАННЫЕ С ИСПОЛЬЗОВАНИЕМ ДАННОГО ПО.
+        
+        ## Авторские права
+        Авторские права на ПО принадлежат [Шамаев Артем Русланович] (Artem Shamaev). Все права, явно не предоставленные настоящей лицензией, сохранены.
+        ```
+            / \__
+           (    @\____
+          /        O /
+         /   (_____/
+         /_____/   U
+         Copyright (C) BARNINO SYSTEMS (2026), all rights reserved.
+        ```
+        *-Может немного отличаться при разных продуктах BARNINO SYSTEMS
+        
+Project-URL: Homepage, https://github.com/ShamaevArtem
+Project-URL: Repository, https://github.com/ShamaevArtem
+Project-URL: Issues, https://github.com/ShamaevArtem
+Keywords: cli,colors,input,ascii-art,console,keyboard
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Terminals
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Dynamic: license-file
+
+# extio - Расширенный ввод-вывод для Python
+
+Библиотека для удобной работы с консолью: цветной вывод, ожидание нажатия клавиш и ASCII-персонажи.
+
+## Возможности
+
+- 🎨 **Цветной вывод** - 9 предустановленных цветов
+- ⌨️ **Ожидание клавиш** - поддержка 25+ клавиш (включая F1-F12, стрелки, модификаторы)
+- 🐧 **ASCII-арт** - 8 встроенных персонажей (Tux, Dog, Cat, Cow и др.)
+- 🌍 **Кроссплатформенность** - Windows, Linux, macOS
+
+## Установка
+
+```bash
+pip install extio
