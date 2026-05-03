@@ -17,3 +17,8 @@ python -m venv .venv
 source .venv/bin/activate
 pip install extio
 ```
+## Установка под Windows
+
+```
+pip install extio
+```
