@@ -9,11 +9,11 @@
 - 🐧 **ASCII-арт** - 8 встроенных персонажей (Tux, Dog, Cat, Cow и др.)
 - 🌍 **Кроссплатформенность** - Windows, Linux, macOS
 
-## Установка
+## Установка под Linux
 
-```bash
+```
+bash
+python -m venv .venv
+source .venv/bin/activate
 pip install extio
-=======
-# Extio-Lib
-Extio - Расширенная Библиотека Ввода/Выода на языке программирования Python
->>>>>>> fa8548328cdd89bdeff71ad1e49aa988d90438dd
+```
